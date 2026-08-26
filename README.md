@@ -1,0 +1,2 @@
+# The-Threshold-Dilemma-Fraud-Detection-under-PSR-and-Consumer-Duty-UK-
+Q : Given the PSR mandatory reimbursement obligation and the FCA Consumer Duty requirements, how  should UK financial institutions set fraud detection thresholds to minimise total expected cost — and  does the answer change when using actual UK regulatory cost figures rather than the theoretical  assumptions found in prior literature?
