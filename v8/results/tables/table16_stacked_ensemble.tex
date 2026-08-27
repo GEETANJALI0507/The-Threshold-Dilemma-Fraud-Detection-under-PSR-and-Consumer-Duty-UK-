@@ -1,0 +1,11 @@
+\begin{table}
+\caption{Logistic-stacked ensemble of the three proposal models vs. the best single model, IEEE-CIS test set.}
+\label{tab:table16_stacked_ensemble}
+\begin{tabular}{rrrrrrrrrrrrrrr}
+\toprule
+auc\_pr & auc\_pr\_lift & roc\_auc & threshold & precision & recall & f1 & accuracy & cost\_per\_txn\_gbp & weight\_logistic & weight\_random\_forest & weight\_xgboost & intercept & best\_single\_model\_auc\_pr & beats\_best\_single\_model \\
+\midrule
+0.8737 & 24.9656 & 0.9665 & 0.0550 & 0.8309 & 0.8116 & 0.8211 & 0.9876 & 1.1690 & -0.3753 & -0.8724 & 9.7641 & -4.9591 & 0.8670 & True \\
+\bottomrule
+\end{tabular}
+\end{table}

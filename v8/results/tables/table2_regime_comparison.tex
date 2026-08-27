@@ -1,0 +1,19 @@
+\begin{table}
+\caption{Cost-optimal threshold by regulatory cost regime, identical data and models.}
+\label{tab:table2_regime_comparison}
+\begin{tabular}{llrrrrrr}
+\toprule
+regime & model & threshold & precision & recall & alert\_rate & cost\_per\_txn\_gbp & saving\_vs\_default\_pct \\
+\midrule
+literature & Logistic Regression & 0.1169 & 0.2972 & 0.5632 & 0.0663 & 2.4876 & 29.0349 \\
+literature & Random Forest & 0.0824 & 0.3411 & 0.7555 & 0.0775 & 1.7011 & 29.9207 \\
+literature & XGBoost & 0.1077 & 0.6727 & 0.8552 & 0.0445 & 0.9676 & 26.9490 \\
+uk\_regulatory & Logistic Regression & 0.3100 & 0.5902 & 0.3535 & 0.0210 & 2.9086 & 4.6396 \\
+uk\_regulatory & Random Forest & 0.2478 & 0.6959 & 0.5994 & 0.0301 & 2.0608 & 5.7493 \\
+uk\_regulatory & XGBoost & 0.3750 & 0.8761 & 0.7894 & 0.0315 & 1.1874 & 5.7783 \\
+uk\_statutory\_cap & Logistic Regression & 0.0000 & 0.0350 & 1.0000 & 1.0000 & 34.0551 & 98.5145 \\
+uk\_statutory\_cap & Random Forest & 0.0010 & 0.0373 & 0.9994 & 0.9379 & 33.8021 & 97.6675 \\
+uk\_statutory\_cap & XGBoost & 0.0000 & 0.0350 & 1.0000 & 1.0000 & 34.0551 & 95.1866 \\
+\bottomrule
+\end{tabular}
+\end{table}

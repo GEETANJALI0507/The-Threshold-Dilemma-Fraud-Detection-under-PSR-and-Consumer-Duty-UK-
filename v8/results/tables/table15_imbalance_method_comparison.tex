@@ -1,0 +1,13 @@
+\begin{table}
+\caption{Imbalance-handling method comparison, XGBoost, tuning subsample, default hyperparameters.}
+\label{tab:table15_imbalance_method_comparison}
+\begin{tabular}{lrrrrr}
+\toprule
+imbalance\_method & auc\_pr & roc\_auc & precision & recall & wall\_seconds \\
+\midrule
+borderline\_smote & 0.6646 & 0.9339 & 0.8182 & 0.5368 & 112.5000 \\
+smote & 0.6561 & 0.9342 & 0.8212 & 0.5305 & 100.1000 \\
+class\_weight & 0.6491 & 0.9244 & 0.8457 & 0.5216 & 68.1000 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,22 @@
+\begin{table}
+\caption{Robustness of the cost-optimal threshold to split rule and dataset.}
+\label{tab:table3_robustness}
+\begin{tabular}{llrrrrrrr}
+\toprule
+scenario & model & threshold & auc\_pr & auc\_pr\_lift & precision & recall & cost\_per\_txn\_gbp & saving\_vs\_default\_pct \\
+\midrule
+IEEE, stratified & Logistic Regression & 0.3100 & 0.4355 & 12.4432 & 0.5902 & 0.3535 & 2.9086 & 4.6396 \\
+IEEE, stratified & Random Forest & 0.2478 & 0.6593 & 18.8400 & 0.6959 & 0.5994 & 2.0608 & 5.7493 \\
+IEEE, stratified & XGBoost & 0.3750 & 0.8670 & 24.7752 & 0.8761 & 0.7894 & 1.1874 & 5.7783 \\
+IEEE, temporal & Logistic Regression & 0.2639 & 0.1750 & 5.0284 & 0.2910 & 0.3490 & 3.7378 & 0.1431 \\
+IEEE, temporal & Random Forest & 0.2963 & 0.4761 & 13.6794 & 0.4275 & 0.4476 & 3.0890 & -6.4022 \\
+IEEE, temporal & XGBoost & 0.2273 & 0.5387 & 15.4767 & 0.5107 & 0.5485 & 2.6886 & 1.9486 \\
+ULB, stratified & Logistic Regression & 0.1650 & 0.7041 & 406.5027 & 0.7215 & 0.7703 & 0.0895 & 5.2786 \\
+ULB, stratified & Random Forest & 0.3750 & 0.8047 & 464.5667 & 0.8971 & 0.8243 & 0.0754 & 7.8793 \\
+ULB, stratified & XGBoost & 0.6000 & 0.7884 & 455.1365 & 0.9077 & 0.7973 & 0.0767 & 4.0726 \\
+PaySim, stratified & Logistic Regression & 0.0032 & 0.6735 & 522.5455 & 0.0223 & 0.9655 & 2.9277 & 85.2835 \\
+PaySim, stratified & Random Forest & 0.0035 & 0.8887 & 689.5440 & 0.0326 & 0.9828 & 2.0111 & 83.9175 \\
+PaySim, stratified & XGBoost & 0.0029 & 0.9172 & 711.6429 & 0.0664 & 1.0000 & 0.6442 & 91.7183 \\
+\bottomrule
+\end{tabular}
+\end{table}
