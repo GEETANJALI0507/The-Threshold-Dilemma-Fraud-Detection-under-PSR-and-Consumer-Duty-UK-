@@ -1,0 +1,13 @@
+\begin{table}
+\caption{Bootstrap significance test: literature vs uk_regulatory cost-optimal threshold.}
+\label{tab:table11_bootstrap_significance}
+\begin{tabular}{lllrrrrrrrrrr}
+\toprule
+model & regime\_a & regime\_b & threshold\_a\_mean & threshold\_a\_ci\_lo & threshold\_a\_ci\_hi & threshold\_b\_mean & threshold\_b\_ci\_lo & threshold\_b\_ci\_hi & diff\_mean & diff\_ci\_lo & diff\_ci\_hi & significant\_at\_5pct \\
+\midrule
+Logistic Regression & literature & uk\_regulatory & 0.0741 & 0.0501 & 0.1133 & 0.2702 & 0.2131 & 0.3756 & 0.1960 & 0.1006 & 0.3255 & True \\
+Random Forest & literature & uk\_regulatory & 0.0750 & 0.0450 & 0.0859 & 0.2992 & 0.1800 & 0.3593 & 0.2242 & 0.1039 & 0.3125 & True \\
+XGBoost & literature & uk\_regulatory & 0.0711 & 0.0383 & 0.0928 & 0.3402 & 0.2250 & 0.4050 & 0.2691 & 0.1322 & 0.3617 & True \\
+\bottomrule
+\end{tabular}
+\end{table}

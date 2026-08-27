@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Effect of subsample size on AUC-PR and the cost-optimal threshold, XGBoost.}
+\label{tab:table8_sample_size_ablation}
+\begin{tabular}{lrrrrrr}
+\toprule
+sample\_rows & auc\_pr & threshold & recall & precision & cost\_per\_txn\_gbp & wall\_seconds \\
+\midrule
+50000 & 0.5079 & 0.3571 & 0.5285 & 0.6495 & 2.2972 & 135.1000 \\
+100000 & 0.6277 & 0.4918 & 0.5600 & 0.7406 & 2.2588 & 142.3000 \\
+200000 & 0.7513 & 0.2748 & 0.7190 & 0.7498 & 1.7056 & 853.8000 \\
+full (590,540) & 0.8686 & 0.3958 & 0.7865 & 0.8827 & 1.2065 & 2027.5000 \\
+\bottomrule
+\end{tabular}
+\end{table}

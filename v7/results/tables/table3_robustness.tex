@@ -1,0 +1,19 @@
+\begin{table}
+\caption{Robustness of the cost-optimal threshold to split rule and dataset.}
+\label{tab:table3_robustness}
+\begin{tabular}{llrrrrrrr}
+\toprule
+scenario & model & threshold & auc\_pr & auc\_pr\_lift & precision & recall & cost\_per\_txn\_gbp & saving\_vs\_default\_pct \\
+\midrule
+IEEE, stratified & Logistic Regression & 0.2321 & 0.4236 & 12.1045 & 0.5145 & 0.3829 & 2.9264 & 4.0960 \\
+IEEE, stratified & Random Forest & 0.3593 & 0.6725 & 19.2172 & 0.7160 & 0.5913 & 2.0541 & 8.0842 \\
+IEEE, stratified & XGBoost & 0.3958 & 0.8686 & 24.8192 & 0.8827 & 0.7865 & 1.2065 & 2.4420 \\
+IEEE, temporal & Logistic Regression & 0.2209 & 0.1740 & 5.0003 & 0.2730 & 0.3779 & 3.7903 & -1.9382 \\
+IEEE, temporal & Random Forest & 0.3333 & 0.4679 & 13.4425 & 0.6393 & 0.3944 & 2.8612 & 4.1809 \\
+IEEE, temporal & XGBoost & 0.3309 & 0.5431 & 15.6045 & 0.6492 & 0.4875 & 2.6461 & 1.0172 \\
+ULB, stratified & Logistic Regression & 0.7100 & 0.7688 & 443.8274 & 0.9206 & 0.7838 & 0.0772 & 0.0000 \\
+ULB, stratified & Random Forest & 0.3300 & 0.8083 & 466.6760 & 0.8378 & 0.8378 & 0.0763 & 6.7215 \\
+ULB, stratified & XGBoost & 0.6000 & 0.8210 & 473.9786 & 0.8939 & 0.7973 & 0.0772 & 0.0000 \\
+\bottomrule
+\end{tabular}
+\end{table}

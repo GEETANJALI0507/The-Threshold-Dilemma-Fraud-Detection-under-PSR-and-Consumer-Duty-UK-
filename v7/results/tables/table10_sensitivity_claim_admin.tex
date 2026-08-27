@@ -1,0 +1,15 @@
+\begin{table}
+\caption{Sensitivity of the cost-optimal threshold to the claim-handling admin cost.}
+\label{tab:table10_sensitivity_claim_admin}
+\begin{tabular}{rlrrrrrrrr}
+\toprule
+claim\_admin & regime & threshold & recall & precision & f1 & alert\_rate & value\_detection\_rate & cost\_per\_txn\_gbp & saving\_vs\_default\_pct \\
+\midrule
+0.0000 & uk\_regulatory & 0.4000 & 0.7774 & 0.8972 & 0.8330 & 0.0303 & 0.7309 & 0.8752 & -0.6645 \\
+25.0000 & uk\_regulatory & 0.3958 & 0.7865 & 0.8827 & 0.8318 & 0.0312 & 0.7439 & 1.0570 & 1.5303 \\
+45.0000 & uk\_regulatory & 0.3958 & 0.7865 & 0.8827 & 0.8318 & 0.0312 & 0.7439 & 1.2065 & 2.4420 \\
+75.0000 & uk\_regulatory & 0.2254 & 0.8184 & 0.8248 & 0.8216 & 0.0347 & 0.7793 & 1.3685 & 7.6305 \\
+120.0000 & uk\_regulatory & 0.1696 & 0.8416 & 0.7433 & 0.7894 & 0.0396 & 0.8073 & 1.6495 & 10.7798 \\
+\bottomrule
+\end{tabular}
+\end{table}
